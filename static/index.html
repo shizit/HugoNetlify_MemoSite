@@ -1,3 +1,8 @@
+{{ partial "header.html" . }}
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
+</span>
+
 <h2>Memo Site</h2>
 <h4>調べた内容をまとめる、技術メモサイトです。</h4>
 
@@ -8,3 +13,4 @@
        <li><a href="https://gohugo.io/"><b>2.HUGO</b></a>　記事などのコンテンツを追加するだけでデザインされたサイトをビルドしてくれる、静的サイトジェネレータです</li>
        <li><a href="https://www.netlify.com/"><b>3.netlify </b></a>　GitHubのリポジトリを監視し、リアルタイムでWebサイトをデプロイしてくれるホスティングサービスです</li>
 </ul>
+{{ partial "footer.html" . }}
