@@ -17,13 +17,17 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-09-23T18:02:55+09:00</lastmod>
-    <priority>0</priority>
+    <loc>/java/silver/</loc>
   </url>
   
   <url>
-    <loc>/java/silver/</loc>
+    <loc>/site/site_constitution/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-09-23T18:02:55+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

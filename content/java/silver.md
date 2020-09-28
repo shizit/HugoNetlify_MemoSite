@@ -1,3 +1,9 @@
++++
+title = "Oracle Siver Memo"
+weight = 15
++++
+
+
 ## ■可変長引数													
 													
 	〇概要												

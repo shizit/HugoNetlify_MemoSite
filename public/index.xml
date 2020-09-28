@@ -7,26 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 23 Sep 2020 18:02:55 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MarkDownについて</title>
+      <title>MarkDown</title>
       <link>/site/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/site/markdown/</guid>
       <description>〇MarkDownとは   概要 MarkDownとはHTMLに変換できる文章の書き方（マークアップ言語）です。 指定されたマークをつけることで（例えば太字にする文字は前後に**をつける、など）
-パーサーがHTMLに変換してくれます(**太字** ⇒&amp;lt;b&amp;gt;太字&amp;lt;/b&amp;gt; )。  　  長所   手軽に文章構造を明示できる 簡単で覚えやすい記述 読み書きに特別なアプリを必要としない それでいて、対応アプリを使えば快適に読み書きできる　引用：日本語Markdownユーザー会 -&amp;gt; Markdownとは
-https://www.markdown.jp/what-is-markdown/     　〇MarkDownの表現   文字効果   BOLD
-**BOLD** //**を前後に2つずつつけます   ITALIC
-_ITALIC_ //_を前後につけます   Strike Line
-~~Strike Line~~ //~~を前後に2つずつつけます     　  コード int i = 0; ``` int i = 0; //```を前後に3つずつ付けます　※マークをエスケープする場合は4つずつ ```   　  ブロッククオート  Blockquotes</description>
+パーサーがHTMLに変換してくれます(**太字** ⇒&amp;lt;b&amp;gt;太字&amp;lt;/b&amp;gt; )。
+  　  長所   手軽に文章構造を明示できる 簡単で覚えやすい記述 読み書きに特別なアプリを必要としない それでいて、対応アプリを使えば快適に読み書きできる　引用：日本語Markdownユーザー会 -&amp;gt; Markdownとは
+https://www.markdown.jp/what-is-markdown/     　〇MarkDownの表現   文字効果 BOLD
+**BOLD** //**を前後に2つずつつけます ITALIC
+_ITALIC_ //_を前後につけます Strike Line
+~~Strike Line~~ //~~を前後に2つずつつけます   　  コード int i = 0; ``` int i = 0; //`を前後に3つずつ付けます　※マークをエスケープする場合は4つずつ ```   　  ブロッククオート  Blockquotes</description>
     </item>
     
     <item>
-      <title></title>
+      <title>Oracle Siver Memo</title>
       <link>/java/silver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/java/silver/</guid>
       <description>■可変長引数 〇概要	引数が同じ型であれば、引数を任意の数設定することができる。	〇形式	引数の型の後に.を3つつける	static void Method(String... s){}	※可変長引数を二つ以上含む場合は、可変長引数を最後に記述しないとコンパイルエラーになる。	（可変長引数の後の引数がどこからなのか判断できないため）	 ■エスケープとダブルクオテーション 〇エスケープ	\&amp;quot;	⇒	&amp;quot;	〇ダブルクオテーション &amp;quot;a b&amp;quot;c　⇒　a bc	 ■var 〇決まり	・varによる型推論はローカル変数の宣言にしか使えない。	(=フィールドやメソッド引数の型宣言には使用できない）	 ■String 〇valueOf	Stringを生成するメソッド。	staticなメソッドのため、インスタンスを生成しないで使用できる。	（Stringはコンパイラが勝手に判断して）	例）String s = &amp;quot;aaa&amp;quot;;	s = String.valueOf(&amp;quot;bbb&amp;quot;);	〇indexOf	文字列の中を検索し、そのindexを返すメソッド。	引数に文字列を指定した場合は、その文字列がはじまるindexを返す。	ない場合は-1を返す。	例)	String s = &amp;quot;abcde&amp;quot;;	int aIndex = s.indexOf(&amp;quot;a&amp;quot;);	//aIndex: 0	〇concat	文字列を結合する。	String hello = &amp;quot;Hello&amp;quot;;	hello.concat(&amp;quot; Java!&amp;quot;);	//Hello Java!	 ■StringBuilder 〇概要	保持している文字列+16文字のバッファを持つ。	（文字列を渡した場合は、その文字数+16文字のchar配列が生成される）	〇capacity	容量を返すメソッド。	StringBuilder sb = new StringBuilder(&amp;quot;abcde&amp;quot;);	int cap = sb.</description>
+    </item>
+    
+    <item>
+      <title>サイト作成</title>
+      <link>/site/site_constitution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/site/site_constitution/</guid>
+      <description> 〇サイトの作成   サイト概要 メモをMarkDownで記述しGitHubにプッシュすると、
+当サイトへ自動的に反映される仕組みになっています。
+  手順概要    HUGOをインストール ローカル環境にHugoのプロジェクトを作成 HugoのプロジェクトにMarkDownの記事を追加 Gitローカルリポジトリ作成 リモートリポジトリ(GitHub)作成 Hugoプロジェクトをリモートリポジトリ（GitHub）へプッシュ リモートリポジトリをnetlifyと連携 netlifyの設定でデプロイ時にHugoのビルドコマンドを実行するよう設定     サービス   ソース管理：GitHub
+ソースをオンラインで管理できるサービスです。
+  サイトジェネレータ：HUGO
+記事などのコンテンツを追加するだけでデザインされたサイトをビルドしてくれる、静的サイトジェネレータです。
+  ホスティング：netlify
+GitHubのリポジトリを監視し、自動でWebサイトをデプロイしてくれるホスティングサービスです。     </description>
     </item>
     
   </channel>

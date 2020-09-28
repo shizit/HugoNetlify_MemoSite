@@ -1,5 +1,5 @@
 +++
-title = "MarkDownについて"
+title = "MarkDown"
 weight = 15
 +++
 
@@ -29,18 +29,18 @@ weight = 15
 ## 〇MarkDownの表現 
 
 + #### 文字効果
-  
-  - **BOLD**
+
+    **BOLD**
     ``` markdown
     **BOLD**  //**を前後に2つずつつけます
     ```
 
-  - _ITALIC_  
+    _ITALIC_  
     ``` markdown
     _ITALIC_  //_を前後につけます
     ```  
 
-  - ~~Strike Line~~
+    ~~Strike Line~~
     ``` markdown
     ~~Strike Line~~  //~~を前後に2つずつつけます
     ```    
@@ -53,7 +53,7 @@ weight = 15
 
     ```` markdown
     ``` 
-    int i = 0;  //```を前後に3つずつ付けます　※マークをエスケープする場合は4つずつ
+    int i = 0;  //`を前後に3つずつ付けます　※マークをエスケープする場合は4つずつ
     ```
     ````
 　
@@ -101,7 +101,8 @@ weight = 15
   {{% notice warning %}}
   warning
   {{% /notice %}}
-  
+
+　
 
 ## 〇その他参考サイト 
 
