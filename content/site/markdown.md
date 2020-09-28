@@ -7,19 +7,19 @@ weight = 15
 ## 〇MarkDownとは
 
 + #### 概要  
-    MarkDownとはHTMLに変換できる文章の書き方（マークアップ言語）です。    
-    指定されたマークをつけることで（例えば太字にする文字は前後に**をつける、など）   
-    パーサーがHTMLに変換してくれます(```**太字**``` ⇒```<b>太字</b>``` )。  
+  MarkDownとはHTMLに変換できる文章の書き方（マークアップ言語）です。    
+  指定されたマークをつけることで（例えば太字にする文字は前後に**をつける、など）   
+  パーサーがHTMLに変換してくれます(```**太字**``` ⇒```<b>太字</b>``` )。  
 
 　
 + #### 長所
-    >* 手軽に文章構造を明示できる
-    >* 簡単で覚えやすい記述
-    >* 読み書きに特別なアプリを必要としない
-    >* それでいて、対応アプリを使えば快適に読み書きできる　  
-    >　  
-    >**引用**：日本語Markdownユーザー会 -> Markdownとは  
-    　　　[https://www.markdown.jp/what-is-markdown/](https://www.markdown.jp/what-is-markdown/)
+  >* 手軽に文章構造を明示できる
+  >* 簡単で覚えやすい記述
+  >* 読み書きに特別なアプリを必要としない
+  >* それでいて、対応アプリを使えば快適に読み書きできる　  
+  >　  
+  >**引用**：日本語Markdownユーザー会 -> Markdownとは  
+  >　　　[https://www.markdown.jp/what-is-markdown/](https://www.markdown.jp/what-is-markdown/)
 
 
 　
@@ -42,32 +42,32 @@ weight = 15
     ```    
 　
 + #### コード
-    ``` java
-    int i = 0;
-    ```
-    ```` markdown
-    ``` 
-    int i = 0;  //```を前後に3つずつ付けます　※マークをエスケープする場合は4つずつ
-    ```
-    ````
+  ``` java
+  int i = 0;
+  ```
+  ```` markdown
+  ``` 
+  int i = 0;  //```を前後に3つずつ付けます　※マークをエスケープする場合は4つずつ
+  ```
+  ````
 　
 + #### ブロッククオート
-    >Blockquotes
+  >Blockquotes
   
-    ``` markdown
-    >Blockquotes
-    ```
+  ``` markdown
+  >Blockquotes
+  ```
 　
 + #### テーブル  
-    |header1|header2|header3|
-    |:--:|:--:|:--:|
-    |a|b|c|  
+  |header1|header2|header3|
+  |:--:|:--:|:--:|
+  |a|b|c|  
 
-    ``` markdown
-    |header1|header2|header3|
-    |:-:|:-:|:-:|  //「:--」左寄せ　「--:」右寄せ　「:-:」中央寄せ
-    |a|b|c|  
-    ```
+  ``` markdown
+  |header1|header2|header3|
+  |:-:|:-:|:-:|  //「:--」左寄せ　「--:」右寄せ　「:-:」中央寄せ
+  |a|b|c|  
+  ```
 　
 + #### Note
   {{% notice note %}}
