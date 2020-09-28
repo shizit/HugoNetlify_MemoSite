@@ -7,13 +7,13 @@ weight = 15
 ## 〇MarkDownとは  
 
 + 概要  
-
   MarkDownとはHTMLに変換できる文章の書き方（マークアップ言語）です。    
   指定されたマークをつけることで（例えば太字にする文字は前後に**をつける、など）   
   パーサーがHTMLに変換してくれます(```**太字**``` ⇒```<b>太字</b>``` )。  
 
-+ 長所  
+　
 
++ 長所  
   >* 手軽に文章構造を明示できる
   >* 簡単で覚えやすい記述
   >* 読み書きに特別なアプリを必要としない
@@ -42,6 +42,7 @@ weight = 15
     ~~Strike Line~~  //~~を前後に2つずつつけます
     ```    
 　
+
 + #### コード
   ``` java
   int i = 0;
@@ -52,6 +53,7 @@ weight = 15
   ```
   ````
 　
+
 + #### ブロッククオート
   >Blockquotes
   
@@ -59,6 +61,7 @@ weight = 15
   >Blockquotes
   ```
 　
+
 + #### テーブル  
   |header1|header2|header3|
   |:--:|:--:|:--:|
@@ -70,29 +73,33 @@ weight = 15
   |a|b|c|  
   ```
 　
+
 + #### Note
   {{% notice note %}}
   Noteやその他メッセージボックス(info,tip,warning)はHugoのShortCodeを利用して記述します。  
   ShortCodeについては、下記サイトを参照：  
   [https://gohugo.io/content-management/shortcodes/](https://gohugo.io/content-management/shortcodes/)  
   {{% /notice %}}
+　
 
 + #### Info
   {{% notice info %}}
   information
   {{% /notice %}}
+　
 
 + #### Tip
   {{% notice tip %}}
   tip
   {{% /notice %}}
+　
 
 + #### Warning
   {{% notice warning %}}
   warning
   {{% /notice %}}
-
 　
+
 ## 〇その他参考サイト 
 >+ メモ書きやドキュメント作成に便利な「Markdown記法」を使ってみよう  
 > [https://www.asobou.co.jp/blog/bussiness/markdown](https://www.asobou.co.jp/blog/bussiness/markdown)
