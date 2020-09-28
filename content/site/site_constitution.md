@@ -6,24 +6,27 @@ weight = 15
 ---
 ## 〇サイトの作成
 
-+ #### サイト概要
++ #### **サイト概要**
 
     メモをMarkDownで記述しGitHubにプッシュすると、  
     当サイトへ自動的に反映される仕組みになっています。
+    　  
+    　
 
-+ #### 手順概要
++ #### **手順概要**
 
-1. HUGOをインストール
-2. ローカル環境にHugoのプロジェクトを作成
-3. HugoのプロジェクトにMarkDownの記事を追加
-4. Gitローカルリポジトリ作成
-5. リモートリポジトリ(GitHub)作成
-6. Hugoプロジェクトをリモートリポジトリ（GitHub）へプッシュ
-7. リモートリポジトリをnetlifyと連携
-8. netlifyの設定でデプロイ時にHugoのビルドコマンドを実行するよう設定
-　
+  1. HUGOをインストール
+  2. ローカル環境にHugoのプロジェクトを作成
+  3. HugoのプロジェクトにMarkDownの記事を追加
+  4. Gitローカルリポジトリ作成
+  5. リモートリポジトリ(GitHub)作成
+  6. Hugoプロジェクトをリモートリポジトリ（GitHub）へプッシュ
+  7. リモートリポジトリをnetlifyと連携
+  8. netlifyの設定でデプロイ時にHugoのビルドコマンドを実行するよう設定
+  　  
+  　
 
-+ #### サービス
++ #### **サービス**
 
   - **[ソース管理：GitHub](https://github.co.jp/)**  
     ソースをオンラインで管理できるサービスです。  
@@ -35,4 +38,4 @@ weight = 15
     GitHubのリポジトリを監視し、自動でWebサイトをデプロイしてくれるホスティングサービスです。 　
 
 
-![SiteConstitution](https://github.com/shizit/memo/blob/master/resources/_gen/images/SiteConstitution.png)
+![SiteConstitution](..\..\resources\_gen\images\SiteConstitution.png)
