@@ -35,4 +35,4 @@ weight = 15
     GitHubのリポジトリを監視し、自動でWebサイトをデプロイしてくれるホスティングサービスです。 　
 
 
-![SiteConstitution](https://github.com/shizit/memo.git/public/resources/_gen/images/SiteConstitution.png)
+![SiteConstitution](https://github.com/shizit/memo/blob/master/resources/_gen/images/SiteConstitution.png)
