@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title> :: </title>
+    <title>MarkDownについて :: </title>
 
     
-    <link href="/css/nucleus.css?1601113529" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1601113529" rel="stylesheet">
-    <link href="/css/hybrid.css?1601113529" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1601113529" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1601113529" rel="stylesheet">
-    <link href="/css/auto-complete.css?1601113529" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1601113529" rel="stylesheet">
-    <link href="/css/theme.css?1601113529" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1601113529" rel="stylesheet">
+    <link href="/css/nucleus.css?1601279460" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1601279460" rel="stylesheet">
+    <link href="/css/hybrid.css?1601279460" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1601279460" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1601279460" rel="stylesheet">
+    <link href="/css/auto-complete.css?1601279460" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1601279460" rel="stylesheet">
+    <link href="/css/theme.css?1601279460" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1601279460" rel="stylesheet">
     
-    <link href="/css/theme-green.css?1601113529" rel="stylesheet">
+    <link href="/css/theme-green.css?1601279460" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1601113529"></script>
+    <script src="/js/jquery-3.3.1.min.js?1601279460"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -71,14 +71,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1601113529"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1601113529"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1601279460"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1601279460"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1601113529"></script>
+<script type="text/javascript" src="/js/search.js?1601279460"></script>
 
     
   </div>
@@ -123,9 +123,9 @@
  
   
     
-      <li data-nav-id="/site/markdown/" title="" class="dd-item active">
+      <li data-nav-id="/site/markdown/" title="MarkDownについて" class="dd-item active">
         <a href="/site/markdown/">
-        
+        MarkDownについて
         
         </a>
     </li>
@@ -246,7 +246,7 @@
             
           
           
-            <a href='/'></a> > <a href='/site/'>サイト作成</a> > 
+            <a href='/'></a> > <a href='/site/'>サイト作成</a> > MarkDownについて
           
         
           
@@ -261,11 +261,17 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#markdownの書き方">MarkDownの書き方</a>
+    <li><a href="#markdownとは">〇MarkDownとは</a>
       <ul>
         <li></li>
       </ul>
     </li>
+    <li><a href="#markdownの表現">〇MarkDownの表現</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#その他参考サイト">〇その他参考サイト</a></li>
   </ul>
 </nav>
     </div>
@@ -283,30 +289,84 @@
           
             <h1>
               
-              
+              MarkDownについて
             </h1>
           
 
         
 
 
-<h2 id="markdownの書き方">MarkDownの書き方</h2>
 <hr>
-<h4 id="文字効果">〇文字効果</h4>
-<p>　　・太字：<strong>Bold</strong></p>
-<p>　　・イタリック：<em>Italic</em></p>
-<p>　　・取り消し線：<del>Strike Line</del><br>
-　</p>
-<h4 id="コード">〇コード</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> <span style="color:#75715e">//コード
-</span></code></pre></div><p>　</p>
-<h4 id="ブロッククオート">〇ブロッククオート</h4>
+<h2 id="markdownとは">〇MarkDownとは</h2>
+<ul>
+<li>
+<h4 id="概要">概要</h4>
+MarkDownとはHTMLに変換できる文章の書き方（マークアップ言語）です。 <br>
+指定されたマークをつけることで（例えば太字にする文字は前後に**をつける、など）<br>
+パーサーがHTMLに変換してくれます(<code>**太字**</code> ⇒<code>&lt;b&gt;太字&lt;/b&gt;</code> )。</li>
+</ul>
+<p>　</p>
+<ul>
+<li>
+<h4 id="長所">長所</h4>
+<blockquote>
+<ul>
+<li>手軽に文章構造を明示できる</li>
+<li>簡単で覚えやすい記述</li>
+<li>読み書きに特別なアプリを必要としない</li>
+<li>それでいて、対応アプリを使えば快適に読み書きできる　<br>
+　<br>
+<strong>引用</strong>：日本語Markdownユーザー会 -&gt; Markdownとは<br>
+　　　<a href="https://www.markdown.jp/what-is-markdown/">https://www.markdown.jp/what-is-markdown/</a></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<p>　</p>
+<h2 id="markdownの表現">〇MarkDownの表現</h2>
+<ul>
+<li>
+<h4 id="文字効果">文字効果</h4>
+<ul>
+<li>
+<p><strong>BOLD</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">**BOLD**  //**を前後に2つずつつけます
+</code></pre></div></li>
+<li>
+<p><em>ITALIC</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">_ITALIC_  //_を前後につけます
+</code></pre></div></li>
+<li>
+<p><del>Strike Line</del></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">~~Strike Line~~  //~~を前後に2つずつつけます
+</code></pre></div></li>
+</ul>
+</li>
+</ul>
+<p>　</p>
+<ul>
+<li>
+<h4 id="コード">コード</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">``` 
+int i = 0;  //```を前後に3つずつ付けます　※マークをエスケープする場合は4つずつ
+```
+</code></pre></div></li>
+</ul>
+<p>　</p>
+<ul>
+<li>
+<h4 id="ブロッククオート">ブロッククオート</h4>
 <blockquote>
 <p>Blockquotes</p>
 </blockquote>
-<p>　
-　</p>
-<h4 id="テーブル">〇テーブル</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">&gt;Blockquotes
+</code></pre></div></li>
+</ul>
+<p>　</p>
+<ul>
+<li>
+<h4 id="テーブル">テーブル</h4>
 <table>
 <thead>
 <tr>
@@ -323,26 +383,58 @@
 </tr>
 </tbody>
 </table>
-<p>　
-　</p>
-<h4 id="notes">〇Notes</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">|header1|header2|header3|
+|:-:|:-:|:-:|  //「:--」左寄せ　「--:」右寄せ　「:-:」中央寄せ
+|a|b|c|  
+</code></pre></div></li>
+</ul>
+<p>　</p>
+<ul>
+<li>
+<h4 id="note">Note</h4>
 
-<div class="notices note" ><p>Notes類はShortCodeを利用して記述します。<br>
-NoteのほかにInfo, Tip, Warningがあります。</p>
+<div class="notices note" ><p>Noteやその他メッセージボックス(info,tip,warning)はHugoのShortCodeを利用して記述します。<br>
+ShortCodeについては、下記サイトを参照：<br>
+<a href="https://gohugo.io/content-management/shortcodes/">https://gohugo.io/content-management/shortcodes/</a></p>
 </div>
 
+</li>
+<li>
+<h4 id="info">Info</h4>
 
 <div class="notices info" ><p>information</p>
 </div>
 
+</li>
+<li>
+<h4 id="tip">Tip</h4>
 
-<div class="notices tip" ><p>Tip</p>
+<div class="notices tip" ><p>tip</p>
 </div>
 
+</li>
+<li>
+<h4 id="warning">Warning</h4>
 
-<div class="notices warning" ><p>Warning</p>
+<div class="notices warning" ><p>warning</p>
 </div>
 
+</li>
+</ul>
+<p>　</p>
+<h2 id="その他参考サイト">〇その他参考サイト</h2>
+<blockquote>
+<ul>
+<li>
+<p>メモ書きやドキュメント作成に便利な「Markdown記法」を使ってみよう<br>
+<a href="https://www.asobou.co.jp/blog/bussiness/markdown">https://www.asobou.co.jp/blog/bussiness/markdown</a></p>
+</li>
+<li>
+<p>Qiita マークダウン記法 一覧表・チートシート<br>
+<a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3">https://qiita.com/kamorits/items/6f342da395ad57468ae3</a></p>
+</li>
+</ul>
+</blockquote>
 
 
 <footer class="footline">
@@ -466,19 +558,19 @@ NoteのほかにInfo, Tip, Warningがあります。</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1601113529"></script>
-    <script src="/js/perfect-scrollbar.min.js?1601113529"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1601113529"></script>
-    <script src="/js/jquery.sticky.js?1601113529"></script>
-    <script src="/js/featherlight.min.js?1601113529"></script>
-    <script src="/js/highlight.pack.js?1601113529"></script>
+    <script src="/js/clipboard.min.js?1601279460"></script>
+    <script src="/js/perfect-scrollbar.min.js?1601279460"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1601279460"></script>
+    <script src="/js/jquery.sticky.js?1601279460"></script>
+    <script src="/js/featherlight.min.js?1601279460"></script>
+    <script src="/js/highlight.pack.js?1601279460"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1601113529"></script>
-    <script src="/js/learn.js?1601113529"></script>
-    <script src="/js/hugo-learn.js?1601113529"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1601279460"></script>
+    <script src="/js/learn.js?1601279460"></script>
+    <script src="/js/hugo-learn.js?1601279460"></script>
     
         
-            <script src="/mermaid/mermaid.js?1601113529"></script>
+            <script src="/mermaid/mermaid.js?1601279460"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
