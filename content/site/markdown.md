@@ -93,15 +93,15 @@ weight = 15
   {{% /notice %}}
 
 + #### Tip
-　{{% notice tip %}}
-　tip
-　{{% /notice %}}
+  {{% notice tip %}}
+  tip
+  {{% /notice %}}
 
 + #### Warning
-　{{% notice warning %}}
-　warning
-　{{% /notice %}}
-　
+  {{% notice warning %}}
+  warning
+  {{% /notice %}}
+  
 
 ## 〇その他参考サイト 
 
