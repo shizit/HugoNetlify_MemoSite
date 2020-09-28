@@ -81,28 +81,23 @@ weight = 15
 　
 
 + #### Note
-
   {{% notice note %}}
   Noteやその他メッセージボックス(info,tip,warning)はHugoのShortCodeを利用して記述します。  
   ShortCodeについては、下記サイトを参照：  
   [https://gohugo.io/content-management/shortcodes/](https://gohugo.io/content-management/shortcodes/)  
   {{% /notice %}}
-　
 
 + #### Info
-
   {{% notice info %}}
   information
   {{% /notice %}}
 
 + #### Tip
-
 　{{% notice tip %}}
 　tip
 　{{% /notice %}}
 
 + #### Warning
-
 　{{% notice warning %}}
 　warning
 　{{% /notice %}}
