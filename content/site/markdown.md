@@ -1,27 +1,40 @@
 +++
+title = "MarkDownの書き方"
 weight = 15
 +++
 
 ## MarkDownの書き方
 ---
 #### 〇文字効果  
-　　・太字：**Bold**  
++ **BOLD**
+    ```
+    **BOLD**
+    ```
 
-　　・イタリック：_Italic_  
++ _ITALIC_  
+    ```
+    _ITALIC_
+    ```  
+     
++ ~~Strike Line~~
+    ```
+    ~~Strike Line~~
+    ```    
 
-　　・取り消し線：~~Strike Line~~  
 　
-
 #### 〇コード
-```java
+```
 int i = 0; //コード
-```  
-　
+```
+    ```
+    int i = 0; //コード
+    ```
 
+　
 #### 〇ブロッククオート
->Blockquotes  
+>Blockquotes
 
-　
+    >Blockquotes  
 　
 #### 〇テーブル  
 |header1|header2|header3|
@@ -29,11 +42,11 @@ int i = 0; //コード
 |a|b|c|  
 
 　
-　
 #### 〇Notes
 {{% notice note %}}
 Notes類はShortCodeを利用して記述します。  
-NoteのほかにInfo, Tip, Warningがあります。
+ShortCodeについては、下記サイトを参照：  
+[https://gohugo.io/content-management/shortcodes/](https://gohugo.io/content-management/shortcodes/)  
 {{% /notice %}}
 
 {{% notice info %}}
