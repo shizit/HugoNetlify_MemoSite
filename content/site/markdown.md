@@ -24,11 +24,12 @@ weight = 15
     >**引用**：日本語Markdownユーザー会 -> Markdownとは  
     >　　　[https://www.markdown.jp/what-is-markdown/](https://www.markdown.jp/what-is-markdown/)
 
-
 　
+
 ## 〇MarkDownの表現 
 
 + #### 文字効果
+  
   - **BOLD**
     ``` markdown
     **BOLD**  //**を前後に2つずつつけます
@@ -38,7 +39,7 @@ weight = 15
     ``` markdown
     _ITALIC_  //_を前後につけます
     ```  
-     
+
   - ~~Strike Line~~
     ``` markdown
     ~~Strike Line~~  //~~を前後に2つずつつけます
@@ -49,6 +50,7 @@ weight = 15
   ``` java
   int i = 0;
   ```
+
   ```` markdown
   ``` 
   int i = 0;  //```を前後に3つずつ付けます　※マークをエスケープする場合は4つずつ
@@ -59,6 +61,7 @@ weight = 15
 + #### ブロッククオート
 
     >Blockquotes
+
     ``` markdown
     >Blockquotes
     ```
@@ -78,35 +81,40 @@ weight = 15
 　
 
 + #### Note
-  {{% notice note %}}
-  Noteやその他メッセージボックス(info,tip,warning)はHugoのShortCodeを利用して記述します。  
-  ShortCodeについては、下記サイトを参照：  
-  [https://gohugo.io/content-management/shortcodes/](https://gohugo.io/content-management/shortcodes/)  
-  {{% /notice %}}
+
+    {{% notice note %}}
+    Noteやその他メッセージボックス(info,tip,warning)はHugoのShortCodeを利用して記述します。  
+    ShortCodeについては、下記サイトを参照：  
+    [https://gohugo.io/content-management/shortcodes/](https://gohugo.io/content-management/shortcodes/)  
+    {{% /notice %}}
 　
 
 + #### Info
-  {{% notice info %}}
-  information
-  {{% /notice %}}
+  
+    {{% notice info %}}
+    information
+    {{% /notice %}}
 　
 
 + #### Tip
-  {{% notice tip %}}
-  tip
-  {{% /notice %}}
-　
+
+    {{% notice tip %}}
+    tip
+    {{% /notice %}}
+
 
 + #### Warning
-  {{% notice warning %}}
-  warning
-  {{% /notice %}}
+
+    {{% notice warning %}}
+    warning
+    {{% /notice %}}
 　
 
 ## 〇その他参考サイト 
+
 >+ メモ書きやドキュメント作成に便利な「Markdown記法」を使ってみよう  
 > [https://www.asobou.co.jp/blog/bussiness/markdown](https://www.asobou.co.jp/blog/bussiness/markdown)
-> 
+>　
 >+ Qiita マークダウン記法 一覧表・チートシート  
 > [https://qiita.com/kamorits/items/6f342da395ad57468ae3](https://qiita.com/kamorits/items/6f342da395ad57468ae3)  
 >
