@@ -1,5 +1,5 @@
 +++
-title = "サイト作成"
+title = "概要"
 weight = 15
 +++
 
@@ -12,6 +12,25 @@ weight = 15
     当サイトへ自動的に反映される仕組みになっています。
     　  
     　
+
++ #### **利用したサービス**
+
+  - **[ソース管理：GitHub](https://github.co.jp/)**  
+    ソースをオンラインで管理できるサービスです。  
+
+  - **[サイトジェネレータ：HUGO](https://gohugo.io/)**  
+    記事などのコンテンツを追加するだけでデザインされたサイトをビルドしてくれる、静的サイトジェネレータです。  
+
+  - **[ホスティング：netlify](https://www.netlify.com/)**  
+    GitHubのリポジトリを監視し、自動でWebサイトをデプロイしてくれるホスティングサービスです。
+    　  
+    　 
+
+
++ #### **構成のイメージ図**
+
+![SiteConstitution](https://github.com/shizit/images/blob/master/SiteConstitution.png?raw=true)
+
 
 + #### **手順概要**
 
@@ -26,16 +45,6 @@ weight = 15
   　  
   　
 
-+ #### **サービス**
-
-  - **[ソース管理：GitHub](https://github.co.jp/)**  
-    ソースをオンラインで管理できるサービスです。  
-
-  - **[サイトジェネレータ：HUGO](https://gohugo.io/)**  
-    記事などのコンテンツを追加するだけでデザインされたサイトをビルドしてくれる、静的サイトジェネレータです。  
-
-  - **[ホスティング：netlify](https://www.netlify.com/)**  
-    GitHubのリポジトリを監視し、自動でWebサイトをデプロイしてくれるホスティングサービスです。 　
+　
 
 
-![SiteConstitution](..\..\resources\_gen\images\SiteConstitution.png)
