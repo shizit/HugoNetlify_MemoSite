@@ -18,7 +18,7 @@ weight = 15
 　  
   **■コード(src/main/resources/templates/error/404.html)**  
 
-    ``` html  
+    ``` html
     <body>
     h1 th:text="${status}+' '+${error}">404 Not Found</h1>>
     <p>The requested URL was not found on this server</p>
