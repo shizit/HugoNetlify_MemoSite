@@ -7,7 +7,7 @@ weight = 15
 
 ## 〇例外処理  
 
-+ #### 404、500エラー  
+#### 404、500エラー  
 
   **■概要**  
   404や505のHTTPステータスコードが表示されるエラーは、所定の位置にHTMLファイルを設定すると発生時にそのファイルが読み込まれます。  
@@ -18,7 +18,7 @@ weight = 15
 　  
   **■コード(src/main/resources/templates/error/404.html)**  
 
-    ``` html
+    ```
     <body>
     h1 th:text="${status}+' '+${error}">404 Not Found</h1>>
     <p>The requested URL was not found on this server</p>
