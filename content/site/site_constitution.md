@@ -1,7 +1,7 @@
 +++
-title = "About"
+title = "サイトについて"
 weight = 1
-
+tags = ["Hugo", "netlify","MarkDown", "Documentation", "Blog"] 
 +++
 
 ---

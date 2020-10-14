@@ -1,32 +1,31 @@
 +++
-title = "MarkDown"
+title = "MarkDownとは"
 weight = 2
 +++
 
 ---
-## 〇MarkDownとは  
 
-+ #### 概要
+#### **〇MarkDown概要**
 
-    MarkDownとはHTMLに変換できる文章の書き方（マークアップ言語）です。    
-    指定されたマークをつけることで（例えば太字にする文字は前後に**をつける、など）   
-    パーサーがHTMLに変換してくれます(```**太字**``` ⇒```<b>太字</b>``` )。  
+MarkDownとはHTMLに変換できる文章の書き方（マークアップ言語）です。    
+指定されたマークをつけることで（例えば太字にする文字は前後に**をつける、など）   
+パーサーがHTMLに変換してくれます(```**太字**``` ⇒```<b>太字</b>``` )。  
+　  
+
+
+#### **〇長所**
+
+>* 手軽に文章構造を明示できる
+>* 簡単で覚えやすい記述
+>* 読み書きに特別なアプリを必要としない
+>* それでいて、対応アプリを使えば快適に読み書きできる　  
+>　  
+>**引用**：日本語Markdownユーザー会 -> Markdownとは  
+>　　　[https://www.markdown.jp/what-is-markdown/](https://www.markdown.jp/what-is-markdown/)
 
 　
 
-+ #### 長所
-
-    >* 手軽に文章構造を明示できる
-    >* 簡単で覚えやすい記述
-    >* 読み書きに特別なアプリを必要としない
-    >* それでいて、対応アプリを使えば快適に読み書きできる　  
-    >　  
-    >**引用**：日本語Markdownユーザー会 -> Markdownとは  
-    >　　　[https://www.markdown.jp/what-is-markdown/](https://www.markdown.jp/what-is-markdown/)
-
-　
-
-## 〇MarkDownの表現 
+#### **〇MarkDownの表現**
 
 + #### 文字効果
 
@@ -46,7 +45,7 @@ weight = 2
     ```    
 　
 
-+ #### コード
++ #### コード記載
     ``` java
     int i = 0;
     ```
@@ -80,7 +79,7 @@ weight = 2
     ```
 　
 
-+ #### Note
++ #### Note（Hugoオリジナル）
   {{% notice note %}}
   Noteやその他メッセージボックス(info,tip,warning)はHugoのShortCodeを利用して記述します。  
   ShortCodeについては、下記サイトを参照：  
@@ -104,7 +103,7 @@ weight = 2
 
 　
 
-## 〇その他参考サイト 
+#### **〇その他参考サイト** 
 
 >+ メモ書きやドキュメント作成に便利な「Markdown記法」を使ってみよう  
 > [https://www.asobou.co.jp/blog/bussiness/markdown](https://www.asobou.co.jp/blog/bussiness/markdown)
