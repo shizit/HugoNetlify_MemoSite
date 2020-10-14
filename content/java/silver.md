@@ -1,6 +1,6 @@
 +++
-title = "Oracle Siver Memo"
-weight = 15
+title = "Oracle Siver"
+weight = 2
 +++
 
 

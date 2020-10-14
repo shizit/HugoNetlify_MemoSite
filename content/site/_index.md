@@ -1,5 +1,5 @@
 +++
-title = "サイト作成"
+title = "About This Site"
 date = 2020-09-23T18:02:55+09:00
 weight = 5
 chapter = true
@@ -9,4 +9,4 @@ chapter = true
 
 # サイト作成
 
-Making Site consist of Hugo, GitHub, Netlify
+Site consist of Hugo, GitHub, Netlify
