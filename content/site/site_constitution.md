@@ -31,14 +31,18 @@ tags = ["Hugo", "netlify","MarkDown", "Documentation", "Blog"]
 　  
 　
 
-#### **〇手順概要**
+#### **〇手順概要、サイト**
 
-  1. HUGOをインストール
+  1. HUGOのインストール  
+     [**Hugo公式サイト - Install Hugo**（https://gohugo.io/getting-started/installing/）](https://gohugo.io/getting-started/installing/)  
+    　
+
   2. ローカル環境にHugoのプロジェクトを作成
-  3. HugoのプロジェクトにMarkDownの記事を追加
-  4. Gitローカルリポジトリ作成
-  5. リモートリポジトリ(GitHub)作成
-  6. Hugoプロジェクトをリモートリポジトリ（GitHub）へプッシュ
-  7. リモートリポジトリをnetlifyと連携
-  8. netlifyの設定でデプロイ時にHugoのビルドコマンドを実行するよう設定
+     [**Hugo公式サイト - Quick Start**（https://gohugo.io/getting-started/quick-start/）](https://gohugo.io/getting-started/quick-start/)  
+    [**Hugo公式サイト - テーマ一覧**(https://themes.gohugo.io/)](https://themes.gohugo.io/)  
+　
+  3. GitHubのリポジトリにPush  
+  　
+  4. リポジトリをnetlifyと連携  
+    [**Hugo公式サイト - Host on Netlify**(https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
 
