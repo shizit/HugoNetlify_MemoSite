@@ -1,5 +1,5 @@
 +++
-title = "サイトについて"
+title = "概要"
 weight = 1
 tags = ["Hugo", "netlify","MarkDown", "Documentation", "Blog"] 
 +++
