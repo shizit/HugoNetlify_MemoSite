@@ -26,10 +26,7 @@ tags = ["Hugo", "netlify","MarkDown", "Documentation", "Blog"]
 　
 
 #### **〇構成のイメージ図**
-
-![SiteConstitution](https://github.com/shizit/images/blob/master/SiteConstitution.png?raw=true)
-　  
-　
+![picture 1](../../images/f0a935cfed334d653c663a315ffba036cbb6416b56b655406cf2264f75e3a518.png)  
 
 #### **〇手順概要、サイト**
 
